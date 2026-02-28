@@ -41,3 +41,15 @@ This is a clean, modular FastAPI backend for an AI-powered water leak detection 
 - `GET /api/v1/simulation/stream`: Stream real-time sensor data (SSE, 1 event/sec).
 - `POST /api/v1/simulation/mode/{mode}`: Change simulation condition (`normal`, `small_leak`, `major_burst`).
 - `GET /api/v1/simulation/status`: Get current simulator state.
+
+## For Frontend
+- cd frontend
+- npm install
+- npm run dev
+- Runs at "http://localhost:5173"
+
+⚠️ Backend must be running before starting frontend.
+
+Default Admin Login
+Username: admin
+Password: admin123
